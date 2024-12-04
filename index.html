@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+</head>
+    
+    <link rel="stylesheet" href="styles.css" />
+    <title>test-web-femcihuy</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loader"></div>
+  </div>
+
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">LovelyS</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+         <li><a href="index.html"><i class="ri-home-line"></i> Home</a></li>
+        <li><a href="about.html"><i class="ri-user-line"></i> About</a></li>
+         <li><a href="https://www.facebook.com/mfemasr.r?mibextid=ZbWKwL"><i class="ri-facebook-line"></i> Facebook</a></li>
+        <li><a href="crypto.html"><i class="fab fa-btc"></i> Live Price</a></li>
+        <li><a href="#contact"><i class="ri-mail-line"></i> Contact</a></li><!-- Link ke bagian Contact -->
+      </ul>
+    </div>
+  </nav>
+
+  <section class="section">
+    <!-- Content of your website -->
+  </section>
+</body>
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO i'm Femas #I am Someone </p>
+          <h1 class="title">
+          </h1>
+          <p class="description">
+            Welcome to my web, website ini cuman buat testing saja, silahkan di otakatik atau ada saran bisa contact aku,mungkin kedepanya bisa mempelajari hal yang lebih baik agar menemukan inovasi yang lebih gila dan keren, tankyou!!!.
+          </p>
+          <div class="action__btns">
+            <button class="hire__me">Hire Me</button>
+            <button class="portfolio">Portfolio</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="1.jpg" alt="profile" width="300" height="280"/>
+        </div>
+      </div>
+
+      <!-- Bagian Contact -->
+      <section class="contact" id="contact">
+        <div class="contact__container">
+          <h2 class="contact__title">Contact Me</h2>
+          <p class="contact__subtitle">Pesan ini tidak akan pernah terkirim!!</p>
+          <form action="#" method="POST" class="contact__form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="contact__submit-btn">Send Message</button>
+          </form>
+        </div>
+        <script src="main.js">main.js</script>
+      </section>
+    </section>
+  </body>
+</html>
